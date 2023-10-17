@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+/* Hover Style */
+.border {
+  border: 1.5px solid transparent;
+  padding: 2px 5px 2px 5px;
+}
+
+.border:hover {
+  border: 1.5px solid #ffffff;
+}
+
+/* Nav Bar Style*/
+.navbar {
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Logo Style*/
+.logo {
+  width: 100px;
+  height: 50px;
+  background-image: url(/Image/amazon_logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Location Icon Style*/
+
+.location_icon p {
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.l_icon {
+  display: flex;
+  align-items: center;
+
+}
+
+.l_icon p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* search_box style*/
+
+.search_box {
+  width: 500px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#select {
+  width: 50px;
+  height: 40px;
+  color: black;
+  padding-left: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding-left: 5px;
+  font-size: 15px;
+  color: black;
+}
+
+.search_icon {
+  width: 50px;
+  height: 40px;
+  background-color: darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search_icon i {
+  color: rgba(0, 0, 0, 0.85);
+
+}
+
+input:hover {
+  border: 2px solid darkorange;
+}
+
+#select:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.signin p:nth-child(1) {
+  font-size: 12px;
+
+}
+
+.signin p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.return p:nth-child(1) {
+  font-size: 12px;
+
+}
+
+.return p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cart i {
+  font-size: 25px;
+
+}
+
+.cart span {
+  font-size: 15px;
+  font-weight: 700;
+
+}
+
+/* Nav Bar 2 Style*/
+
+.nav_bar_2 {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.menu p {
+  padding-left: 3px;
+}
+
+.menu_list {
+  width: 70%;
+  display: flex;
+}
+
+.menu_list p {
+  margin-left: 25px;
+}
+
+/* Header image*/
+
+.hero {
+  width: 100%;
+  height: 250px;
+  background-image: url(/Image/hero_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* box style */
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #d1e0e0;
+}
+
+.box_layout {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 220px;
+  height: 280px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.heads {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heads h2 {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 20px;
+}
+
+.img {
+  width: 100%;
+  height: 70%;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
+.discription {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.discription a {
+  text-decoration: none;
+  color: #56a383;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+/* footer style */
+
+
+.backboton {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backboton p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.90);
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.item ul p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+
+}
+
+.item ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer_2 {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_2 {
+  width: 100px;
+  height: 50px;
+  background-image: url(/Image/amazon_logo.png);
+  background-size: cover;
+}
+
+.footer_3 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_3 p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
